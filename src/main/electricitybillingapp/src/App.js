@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import TariffTable from './Components/TariffTable';
 import BillTable from './Components/BillTable';

@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 export default function UserTable(){
     const[user, setUser] = useState([]);
-    const [userId, setuserId] = useState("");
+    const [setuserId] = useState("");
     useEffect(() => {
         const getAllUser = async () => {
           try {

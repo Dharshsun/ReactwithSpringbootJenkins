@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 export default function TariffTable(){
     const[tariff, setTariff] = useState([]);
-    const [tariffId, settariffId] = useState("");
+    const [settariffId] = useState("");
     useEffect(() => {
         const getAllTariff = async () => {
           try {

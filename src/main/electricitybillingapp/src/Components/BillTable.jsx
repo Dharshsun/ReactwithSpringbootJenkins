@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 export default function BillTable() {
   const [bill, setBill] = useState([]);
-  const [billId, setbillId] = useState("");
+  const [setbillId] = useState("");
   useEffect(() => {
     const getAllBill = async () => {
       try {
